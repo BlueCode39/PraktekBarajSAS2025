@@ -1,0 +1,74 @@
+body {
+    background-color: grey;
+}
+
+.cardproduk {
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(45, 45, 45);
+    box-shadow: 0px 10px 10px 10px rgba(45, 45, 45,0.23);
+    -webkit-box-shadow: 0px 10px 10px 10px rgba(45, 45, 45,0.23);
+    -moz-box-shadow: 0px 10px 10px 10px rgba(45, 45, 45,0.23);
+}
+.cardproduk img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 370px;
+    height: auto;
+}
+.cardproduk h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.cardproduk h3 {
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    color: #007bff;
+}
+.cardproduk p {
+    margin: 3px;
+    width: 320px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15.5px;
+    text-align: center;
+    color: white;
+}
+
+.button {
+    margin: 20px;
+    border-radius: 20px;
+    padding-block: 5px;
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: row;
+    background: #007bff;
+    animation: ;
+    background: linear-gradient(90deg, #007bff 0%, #0056b3 100%);
+    
+}
+
+.button:hover {
+    box-shadow: 0px 5px 5px 5px rgba(0, 110, 255, 0.548);
+    -webkit-box-shadow: 0px 5px 5px 5px  rgba(0, 110, 255, 0.548);
+    -moz-box-shadow: 0px 5px 5px 5px  rgba(0, 110, 255, 0.548);
+}
+
+.button h3 {
+    color: white;
+    font-size: 18px;
+}
+
+.button img {
+    border-radius: 0px;
+    color: white;
+    width: 35px;
+    height: 35px;
+}
