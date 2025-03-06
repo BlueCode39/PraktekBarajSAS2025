@@ -50,7 +50,6 @@ body {
     display: flex;
     flex-direction: row;
     background: #007bff;
-    animation: ;
     background: linear-gradient(90deg, #007bff 0%, #0056b3 100%);
     
 }
